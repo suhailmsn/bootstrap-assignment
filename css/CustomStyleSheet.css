@@ -249,22 +249,22 @@ button{
     text-align: center;
 }
 #ready{
-    background-color: #ffeef2;
-    color: #fb105e;
+    background-color: #dcfef3;
+    color: #29bc8a;
     border-radius: 25px;    
-    padding: 8px 8px;
+    padding: 8px 0px;
     text-align: center;
 }
 #eat{
-    background-color: #ffeef2;
-    color: #fb105e;
+    background-color: #e9f9ff;
+    color: #0ca3ff;
     border-radius: 25px;    
     padding: 8px 8px;
     text-align: center;
 }
 #running{
-    background-color: #ffeef2;
-    color: #fb105e;
+    background-color: #f8effc;
+    color: #9200e3;
     border-radius: 25px;    
     padding: 8px 8px;
     text-align: center;
@@ -391,8 +391,11 @@ button{
     position: relative;
 }
 .clients i{
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.our-clients{
+    margin-top: 60px;
 }
 #project-card{
     margin-top: 20px;
@@ -438,6 +441,9 @@ button{
     padding: 5px;
     height: 35px;
     -webkit-box-shadow: 0px 0px 10px #ccc;
+}
+.w-1-c{
+    90%;
 }
 @media only screen and (max-width: 1080px) {
 
