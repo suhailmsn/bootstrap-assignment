@@ -1,0 +1,212 @@
+<html>
+<title>Sample Assignment</title>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/CustomStyleSheet.css">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="javascript.js"></script>   
+</head>
+<body>
+    <div class="container-fluid flex">
+        <div class="col" id="nav-menu">
+            <h1><a>Gesto</a></h1>
+                <span>General</span>
+                <ul class="flex">
+                    <li><i class="far fa-chart-bar"></i><a>DashBoard</a></li>
+                    <li><i class="fas fa-clipboard-list"></i><a>Tasks</a></li>   
+                </ul>
+                <hr>
+                 <span>Health</span>
+                <ul class="flex">
+                    <li><i class="fas fa-apple-alt"></i><a>Diet</a></li>
+                    <li><i class="far fa-calendar"></i><a>Schedules</a></li>   
+                </ul>
+                <hr>
+                 <span>Professional</span>
+                <ul class="flex">
+                    <li><i class="fas fa-user"></i><a>Profile</a></li>
+                    <li><i class="fas fa-user-tie"></i><a>Clients</a></li>
+                    <li><i class="fas fa-users"></i><a>Teams</a></li> 
+                    <li><i class="fas fa-key"></i><a>Passwords</a></li> 
+                    <li><i class="far fa-calendar-check"></i><a>Projects</a></li> 
+                    <li><i class="fas fa-laptop-code"></i><a>Works</a></li> 
+                    <li><i class="fas fa-bolt"></i><a>Skills</a></li> 
+                    <li><i class="fas fa-crosshairs"></i><a>Aim</a></li> 
+                </ul>
+                <hr>
+                <span>Personal</span>
+        </div>
+        <div class="col-md-8 flex" id="content">
+            <div class="search">
+            <input type="text" placeholder="Search Text">
+            </div>
+            <div class="content-body">
+                <span id="schedule">DAILY SCHEDULES</span>
+                <div class="date flex">
+                <h2><span id="day">Monday</span>14th Dec, 2020</h2>
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-tasks right-align"></i>
+                </div>     
+            
+            <div class="week flex">
+                <button class="purple">Monday</button>
+                <button class="pink">Tuesday</button>
+                <button class="blue">Wednesday</button>
+                <button class="yellow">Thursday</button>
+                <button class="green">Friday</button>
+                <button class="grey">Saturday</button>
+                <button class="orange">Sunday</button>
+            </div>
+            <div class="daily-card flex">
+                <ul class="flex-column" id="ul-card">
+                    <li>
+                        <button id="btn-1">4:45 AM</button>
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="flex">
+                            <div class="column">
+                            <span>4:45-7:00 AM</span>
+                            <h5>Wake and Exercise</h5>
+                            </div>
+                            <i class="fas fa-dumbbell"></i> 
+                            <i class="fas fa-bell"></i>
+                            </div>   
+                            <ul class="flex" id="inline-ul">
+                            <li><span id="wake-up"><i class="far fa-clock"></i>Wake Up</span></li>
+                            <li><span id="ready"><i class="fas fa-running"></i>Ready</span></li>
+                            <li><span id="eat"><i class="fas fa-apple-alt"></i>Eat Fruits</span></li>
+                            <li><span id="running"><i class="fas fa-running"></i>Running</span></li>
+                            </ul>
+                          </div>
+                        </div>
+                    </li>
+                    <li>
+                        <button id="btn-1">7:00 AM</button>
+                        <div class="card" id="blue-bg">
+                          <div class="card-body">
+                            <span>7:00-7:30 AM</span>
+                            <div class="flex">
+                            <h5>Meetin with Some one Special</h5>
+                            <i class="fas fa-wine-glass-alt"></i>
+                            </div>
+                            <i class="fas fa-female"></i>
+                          </div>
+                        </div>
+                    </li>
+                    <li>
+                        <button id="btn-1">7:30AM</button>
+                        <div class="card">
+                           <div class="card-body">
+                            <div class="flex">
+                            <div class="column">
+                            <span>7:30-8:15 AM</span>
+                            <h5>Eat Sprouts</h5>
+                            </div>
+                            <i class="fas fa-star"></i>
+                            </div>   
+                            <ul class="flex" id="inline-icons">
+                                <li><i class="fas fa-wine-bottle"></i></li>
+                                <li><i class="fas fa-cookie-bite"></i></li>  
+                                <li><i class="fas fa-utensils"></i></li>
+                            </ul>
+                          </div>
+                        </div>
+                    </li>
+                    <li>
+                        <button id="btn-1">8:15 AM</button>
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="flex">
+                            <div class="column">
+                            <span>8:15-8:45 AM</span>
+                            <h5>Bathing</h5>
+                            </div>
+                            <i class="fas fa-stopwatch"></i>
+                            </div>   
+                            <ul class="flex" id="inline-ul">
+                            <li><span id="wake-up"><i class="far fa-clock"></i>Bathing</span></li>
+                            </ul>
+                          </div>
+                        </div>
+                    </li>
+                </ul>     
+            </div>
+            </div>
+        </div>
+            <div class="col-md-2">
+                <div class="last-section">
+                    <ul class="flex" id="menu-icons">
+                        <div class="flex">
+                        <li><i class="far fa-bell"></i></li>
+                        <li><i class="fas fa-shopping-cart"></i></li>
+                        <li><i class="fas fa-shopping-bag"></i></li>
+                        </div>
+                        <li><div class="right-align">
+                            <i class="fas fa-user"></i>
+                            <i class="fas fa-angle-down"></i>
+                            </div>
+                        </li>
+                    </ul>
+                <span id="quotes">DAILY QUOTES</span>
+                <div class="flex flex-center" id="daily-quotes">
+                    <img src="person.png" alt="person.png" id="person">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <p>"They Laugh at me because I'M Different"</p>
+                            </div>
+                            <div class="carousel-item">
+                                <p>"They Laugh at me because I'M Different"</p>
+                            </div>
+                            <div class="carousel-item">
+                                <p>"They Laugh at me because I'M Different"</p>
+                            </div>
+                            <div class="carousel-item">
+                                <p>"They Laugh at me because I'M Different"</p>
+                            </div>
+                          </div>
+                          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                    </div>
+                </div>
+                <span id="quotes">OUR CLIENTS</span>
+                    <div class="clients">
+                        <i class="fa fas fa-user"></i>
+                        <i class="fa fas fa-user"></i>
+                        <i class="fa fas fa-user"></i>
+                    </div>
+                <span id="quotes">RECENT PROJECTS</span>
+                        <div class="card" id="project-card">
+                          <div class="card-body">
+                            <div class="flex">
+                            <div class="flex">    
+                            <h5>Create Dashboard for Shopes</h5>
+                             <button id="btn-percent">54%</button>
+                            </div>
+                            </div>   
+                            <ul class="flex" id="project-card-ul">
+                            <li><span id="eat">Dashboard</span></li>
+                            </ul>
+                          </div>
+                        </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
