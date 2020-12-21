@@ -452,7 +452,48 @@ button{
 #h-head{
     display: none;
 }
+.icon{
+    display: none;
+}
+ #nav-bar{
+        display: none ;
+}
+
+
 @media only screen and (max-width: 1080px) {
+        .nav-col{
+        display: flex;
+        width: 0px;
+    }
+    .nav-col div:nth-child(3){
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px
+    }
+      .nav-col div:nth-child(1){
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px
+    }
+    .nav-col span{
+        color: black;
+        opacity: 1;
+    }
+    .nav-col div{
+        padding:10px 20px;
+        margin-bottom: 40px;
+        background-color: lightgray;
+    }
+    .show{
+        display: flex !important;
+        flex-direction: column;
+        position: relative;
+        top: 55;
+        right: 25px;
+        margin-bottom: 40px;
+        border-radius: 20px;
+    }
+    .icon{
+        display: inline;
+    }
     .responsive{
         display: inline !important;
         position: relative;
@@ -535,6 +576,7 @@ button{
     #inline-ul span{
 
     }
+   
 }
 
 
@@ -545,14 +587,15 @@ button{
 
 
 @media only screen and (max-width: 760px) {
+
     .content-body {
-    margin-left: 10px;
-    margin-right: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
 }
     #ul-card li {
         align-items: center;
-    flex-direction: column;
-    padding-left: 0;
+        flex-direction: column;
+        padding-left: 0;
 }
   .card {
       margin-left: auto;

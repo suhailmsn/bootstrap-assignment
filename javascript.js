@@ -1,8 +1,10 @@
 function myFunction() {
-  var x = document.getElementById("nav-menu");
-  if (x.className === "col") {
-    x.className = "col responsive";
-  } else {
-    x.className = "col";
+  var x = document.getElementById("nav-bar");
+  if (x.className === "hide") {
+    x.className = "show";
+  } 
+    else {
+    x.className = "hide";
   
+   }
 }

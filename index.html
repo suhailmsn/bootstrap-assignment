@@ -144,22 +144,42 @@
                     <h1 id="h-head"><a>Gesto</a></h1>
                     <ul class="flex" id="menu-icons">
                         <div class="flex">
-                        <li>
-                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                        <i class="fas fa-bars"></i>
-                        </a>
-                        </li>
-                        
-                        <li><i class="far fa-bell"></i></li>
-                        <li><i class="fas fa-shopping-cart"></i></li>
-                        <li><i class="fas fa-shopping-bag"></i></li>
+                            <li class="icon">
+                                <a href="javascript:void(0);"  onclick="myFunction()">
+                                    <i class="fas fa-bars"></i>
+                                </a>
+                            </li> 
+                                <div class="hide" id="nav-bar">
+                                  <ul class="nav-col">
+                                      <div>
+                                        <span>General</span>
+                                        <li><i class="far fa-chart-bar"></i><a>DashBoard</a></li>
+                                        <li><i class="fas fa-clipboard-list"></i><a>Tasks</a></li>   
+                                        </div>
+                                        <div>
+                                         <span>Health</span>
+                                        <li><i class="fas fa-apple-alt"></i><a>Diet</a></li>
+                                        <li><i class="far fa-calendar"></i><a>Schedules</a></li>   
+                                    </div>
+                                    <div>
+                                         <span>Professional</span>                              
+                                        <li><i class="fas fa-users"></i><a>Teams</a></li> 
+                                        <li><i class="fas fa-key"></i><a>Passwords</a></li> 
+                                        <li><i class="far fa-calendar-check"></i><a>Projects</a></li> 
+                                        <li><i class="fas fa-laptop-code"></i><a>Works</a></li>  
+                                    </div>
+                                </ul>
+                                </div>      
+                            <li><a><i class="far fa-bell"></i></a></li>
+                            <li><a><i class="fas fa-shopping-cart"></i></a></li>
+                            <li><a><i class="fas fa-shopping-bag"></i></a></li>
                         </div> 
                         <li><div class="search" id="l-search">
                             <input type="text" placeholder="Search Text">
                             </div></li>
                         <li><div class="right-align">
-                            <i class="fas fa-user"></i>
-                            <i class="fas fa-angle-down"></i>
+                            <a><i class="fas fa-user"></i></a>
+                            <a><i class="fas fa-angle-down"></i></a>
                             </div>
                         </li>
                     </ul>
