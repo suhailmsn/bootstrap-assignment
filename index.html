@@ -43,7 +43,7 @@
                 <span>Personal</span>
         </div>
         <div class="col-md-8 flex" id="content">
-            <div class="search">
+            <div class="search" id="search">
             <input type="text" placeholder="Search Text">
             </div>
             <div class="content-body">
@@ -141,18 +141,29 @@
         </div>
             <div class="col-md-2">
                 <div class="last-section">
+                    <h1 id="h-head"><a>Gesto</a></h1>
                     <ul class="flex" id="menu-icons">
                         <div class="flex">
+                        <li>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fas fa-bars"></i>
+                        </a>
+                        </li>
+                        
                         <li><i class="far fa-bell"></i></li>
                         <li><i class="fas fa-shopping-cart"></i></li>
                         <li><i class="fas fa-shopping-bag"></i></li>
-                        </div>
+                        </div> 
+                        <li><div class="search" id="l-search">
+                            <input type="text" placeholder="Search Text">
+                            </div></li>
                         <li><div class="right-align">
                             <i class="fas fa-user"></i>
                             <i class="fas fa-angle-down"></i>
                             </div>
                         </li>
                     </ul>
+                    <div class="zindex">
                 <span id="quotes">DAILY QUOTES</span>
                 <div class="flex flex-center" id="daily-quotes">
                     <img src="person.png" alt="person.png" id="person">
@@ -194,8 +205,8 @@
                     <span id="quotes">RECENT PROJECTS</span>
                         <div class="card" id="project-card">
                           <div class="card-body">
-                            <div class="flex">
-                            <div class="flex">    
+                            <div class="flex wa">
+                            <div class="flex wb">    
                             <h5>Create Dashboard for Shopes</h5>
                              <button id="btn-percent">54%</button>
                             </div>
@@ -207,8 +218,8 @@
                         </div>
                     <div class="card" id="project-card">
                           <div class="card-body">
-                            <div class="flex">
-                            <div class="flex">    
+                            <div class="flex wa">
+                            <div class="flex wb">    
                             <h5>Design UX of News Paper App</h5>
                              <button id="btn-percent">81%</button>
                             </div>
@@ -220,8 +231,8 @@
                         </div>
                     <div class="card" id="project-card">
                           <div class="card-body">
-                            <div class="flex">
-                            <div class="flex">    
+                            <div class="flex wa">
+                            <div class="flex wb">    
                             <h5>Create Website for Biyers.com</h5>
                              <button id="btn-percent">30%</button>
                             </div>
@@ -232,6 +243,7 @@
                           </div>
                         </div>
             </div>
+        </div>
         </div>
     </div>
 </body>

@@ -444,11 +444,97 @@ button{
 }
 .w-1-c{
     90%;
+    
+}
+#l-search{
+    display: none;
+}
+#h-head{
+    display: none;
 }
 @media only screen and (max-width: 1080px) {
+    .responsive{
+        display: inline !important;
+        position: relative;
+        bottom: 1960px;
+        z-index: -1;
+        background-color: aqua;
+    }
+    #l-search{
+        display: inline;
+    }
+    #h-head{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .last-section {
+    margin: 15px 10px 15px 10px;
+    }
+    #l-search input{
+        border: none;
+        font-weight: 700;
+        background: url(../svgs/loupe.svg) no-repeat;
+        background-position: 5% 50%;
+        background-size: 12px;
+        margin-bottom: 20px;
+    }
+    #quotes{
+         width:100%;
+    text-align:center;
+    }
+    #search{
+        display: none;
+    }
+    #project-card{
+        width 60% !important;
+    }
+    .wa{
+        flex-direction: column;
+    }
+    .wb{
+        justify-content: space-between;
+    }
+    .container-fluid{
+        flex-direction: column-reverse;
+    }
 
+    .col{
+        display: none;
+    }
+    .col-md-2{
+        width: 100%;
+    }
+    .last-section{
+        max-width: 1000px;
+    }
+    #content{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .search{
+        text-align: center;
+    }
+    .week{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .week button{
+        margin: 0px 10px 10px 10px;
+    }
+    #inline-ul{
+        flex-wrap: wrap;
+    }
+    #inline-ul li{
+        width: 47%;
+    }
+    #inline-ul span{
 
-
+    }
 }
 
 
@@ -458,6 +544,31 @@ button{
 
 
 
-@media only screen and (max-width: 600px) {
-  
+@media only screen and (max-width: 760px) {
+    .content-body {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+    #ul-card li {
+        align-items: center;
+    flex-direction: column;
+    padding-left: 0;
+}
+  .card {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 30px;
+      width: 100%;
+}
+    #inline-ul{
+        align-items: center;
+        padding-right: 0px;
+    }
+       #inline-ul li{
+        
+        width: 100%;
+    }
+    #btn-1{
+        margin-bottom: 20px;
+    }
 }
